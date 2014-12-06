@@ -9,7 +9,7 @@ function UFOEnemyShip () {
     this.setDamage(22.0);
 }
 
-UFOEnemyShip.prototype = EnemyShip.prototype;
+UFOEnemyShip.prototype = Object.create(EnemyShip.prototype);
 UFOEnemyShip.prototype.constructor = UFOEnemyShip;
 
 

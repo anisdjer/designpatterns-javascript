@@ -9,7 +9,7 @@ function TankEnemyShip () {
     this.setDamage(10.0);
 }
 
-TankEnemyShip.prototype = EnemyShip.prototype;
+TankEnemyShip.prototype = Object.create(EnemyShip.prototype);
 TankEnemyShip.prototype.constructor = TankEnemyShip;
 
 
