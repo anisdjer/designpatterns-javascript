@@ -29,8 +29,12 @@ Song.prototype.getName = function () {
     return this.getSongName();
 }
 
-Song.prototype.displayInfo = function () {
-    console.log(this.getName() + " " + " was recorded by " + this.getBandName() + " in " + this.getReleaseYear());
+Song.prototype.displayInfo = function (tree) {
+    var treeString = "";
+    for(var i = 0; i < tree || 0; i +=1 ) {
+        treeString += "|\t";
+    }
+    console.log(treeString + "|- " + this.getName() + " " + " was recorded by " + this.getBandName() + " in " + this.getReleaseYear());
 }
 
 module.exports = Song;

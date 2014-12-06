@@ -41,11 +41,15 @@ SongGroup.prototype.getName = function () {
     return this.getGroupName();
 }
 
-SongGroup.prototype.displayInfo = function () {
-    console.log("\n" + this.getName() + " " + this.getGroupDescription() + "\n");
-
+SongGroup.prototype.displayInfo = function (tree) {
+    var treeString = "";
+    for(var i = 0; i < tree || 0; i +=1 ) {
+        treeString += "|\t";
+    }
+    console.log(treeString + "|- " + this.getName() + " " + this.getGroupDescription());
+    ++tree;
     for(var i = 0, l = this.songComponents.length; i < l; i += 1) {
-        this.songComponents[i].displayInfo();
+        this.songComponents[i].displayInfo(tree);
     }
 }
 module.exports = SongGroup;

@@ -12,8 +12,9 @@ var heavyMetalMusic = new SongGroup("HeavyMetal", "is a genre of rock developed 
 var dubstepMusic = new SongGroup("Dubstep", "is a genre of electronic ...");
 
 var everySong = new SongGroup("SongList", "Every Song Available");
-
+everySong.add(new Song("I'm born !!", "Anis", 1988));
 everySong.add(industrialMusic);
+
 industrialMusic.add(new Song("Head like a Hole", "NIN", 1990));
 industrialMusic.add(new Song("Headhunter", "Front 242", 1988));
 

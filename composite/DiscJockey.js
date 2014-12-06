@@ -7,7 +7,7 @@ function DiscJockey(songList) {
 }
 
 DiscJockey.prototype.getSongList = function () {
-    this.songList.displayInfo();
+    this.songList.displayInfo(0);
 }
 
 module.exports = DiscJockey;
