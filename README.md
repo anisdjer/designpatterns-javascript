@@ -15,7 +15,7 @@ A class of which only a single instance can exist
 ## Structural Patterns
 #### Adapter	
 Match interfaces of different classes
-#### Bridge	
+#### [Bridge] (https://github.com/anisdjer/designpatterns-javascript/tree/master/bridge)	
 Separates an object’s interface from its implementation
 #### [Composite] (https://github.com/anisdjer/designpatterns-javascript/tree/master/composite)	
 A tree structure of simple and composite objects
