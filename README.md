@@ -48,7 +48,7 @@ Alter an object's behavior when its state changes
 Encapsulates an algorithm inside a class
 #### Template Method	
 Defer the exact steps of an algorithm to a subclass
-#### Visitor	
+#### [Visitor] (https://github.com/anisdjer/designpatterns-javascript/tree/master/visitor)
 Defines a new operation to a class without change
 
 ### References :
