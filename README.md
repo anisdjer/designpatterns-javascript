@@ -36,7 +36,7 @@ Encapsulate a command request as an object
 A way to include language elements in a program
 #### Iterator	
 Sequentially access the elements of a collection
-#### Mediator	
+#### [Mediator] (https://github.com/anisdjer/designpatterns-javascript/tree/master/mediator)	
 Defines simplified communication between classes
 #### [Memento] (https://github.com/anisdjer/designpatterns-javascript/tree/master/memento)	
 Capture and restore an object's internal state
