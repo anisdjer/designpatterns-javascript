@@ -28,7 +28,7 @@ A fine-grained instance used for efficient sharing
 #### Proxy	
 An object representing another object
 ## Behavioral Patterns
-#### Chain of Resp.	
+#### [Chain of Resp.] (https://github.com/anisdjer/designpatterns-javascript/tree/master/chain_of_responsabilty)	
 A way of passing a request between a chain of objects
 #### Command	
 Encapsulate a command request as an object
@@ -42,7 +42,7 @@ Defines simplified communication between classes
 Capture and restore an object's internal state
 #### Observer	
 A way of notifying change to a number of classes
-#### State	
+#### [State] (https://github.com/anisdjer/designpatterns-javascript/tree/master/state)	
 Alter an object's behavior when its state changes
 #### Strategy	
 Encapsulates an algorithm inside a class
