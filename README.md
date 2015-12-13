@@ -50,3 +50,6 @@ Encapsulates an algorithm inside a class
 Defer the exact steps of an algorithm to a subclass
 #### Visitor	
 Defines a new operation to a class without change
+
+### References :
+ - [DoFactory] (http://www.dofactory.com/javascript/design-patterns)
