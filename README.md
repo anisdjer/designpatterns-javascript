@@ -28,7 +28,7 @@ A fine-grained instance used for efficient sharing
 #### Proxy	
 An object representing another object
 ## Behavioral Patterns
-#### [Chain of Resp.] (https://github.com/anisdjer/designpatterns-javascript/tree/master/chain_of_responsability)	
+#### [Chain of Resp.] (https://github.com/anisdjer/designpatterns-javascript/tree/master/chain_of_responsibility)	
 A way of passing a request between a chain of objects
 #### Command	
 Encapsulate a command request as an object
